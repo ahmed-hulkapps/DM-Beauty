@@ -10,7 +10,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -38,7 +38,7 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true
       }
     },
@@ -49,9 +49,9 @@
         "collection": "all",
         "products_to_show": 4,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "square",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": false,
