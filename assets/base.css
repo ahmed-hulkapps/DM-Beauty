@@ -2218,6 +2218,10 @@ details[open] > .header__icon--menu .icon-hamburger {
     margin-left: 0;
   }
 }
+.list-menu list-menu--inline{
+  display: flex;
+  justify-content: space-between;
+}
 
 .header__menu {
   padding: 0 1rem;
