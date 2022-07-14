@@ -22,12 +22,19 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "30f0b6de-5b18-4c54-8fec-9b7b8a1c209b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/minimal-logo-white_2x_d6043b93-2209-47ad-a6fa-d83fd22a5b68.png",
+              "image_width": 85,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": ""
             }
           },
           "footer-1": {
@@ -39,6 +46,7 @@
           }
         },
         "block_order": [
+          "30f0b6de-5b18-4c54-8fec-9b7b8a1c209b",
           "footer-0",
           "footer-1"
         ],
