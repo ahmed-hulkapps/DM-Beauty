@@ -2,11 +2,43 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "4dac2024-d6aa-4cb9-b9cd-4505275edfa9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Awesome Hero Slider",
+            "heading_size": "medium"
+          }
+        },
+        "94f3b03a-4f45-4c37-9527-e72d1ee34b63": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "text_style": "body"
+          }
+        },
+        "64dd12a0-3ca9-469a-abea-803dc2118e0f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "4dac2024-d6aa-4cb9-b9cd-4505275edfa9",
+        "94f3b03a-4f45-4c37-9527-e72d1ee34b63",
+        "64dd12a0-3ca9-469a-abea-803dc2118e0f"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DM_Beauty_-_home_page_-_Banner_Section-xd.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
