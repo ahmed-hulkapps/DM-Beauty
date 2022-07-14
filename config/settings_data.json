@@ -1,5 +1,10 @@
 {
   "current": {
+    "social_twitter_link": "",
+    "social_facebook_link": "1",
+    "social_pinterest_link": "3",
+    "social_instagram_link": "2",
+    "social_tiktok_link": "4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -30,34 +35,42 @@
               "alignment": "center"
             }
           },
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": ""
-            }
-          },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "SHOP",
+              "subtext": "<p>Complexion<\/p><p>Glow<\/p><p>Color<\/p><p>Set & Seal<\/p><p>Accessories<\/p><p>Exclusives<\/p><p>Shop All<\/p>"
+            }
+          },
+          "1e3d15f7-3d82-463a-a671-e52ca08da1c6": {
+            "type": "text",
+            "settings": {
+              "heading": "HELP",
+              "subtext": "<p>My Accout<\/p><p>My Bag<\/p><p>Checkout<\/p><p>FAQ<\/p>"
+            }
+          },
+          "e31ee8a4-f498-4089-96a6-f337e98e8495": {
+            "type": "text",
+            "settings": {
+              "heading": "MORE",
+              "subtext": "<p>About<\/p><p>DMB University<\/p><p>DMB Angels<\/p><p>Find Your Shade<\/p><p>Events<\/p><p>Wholesale Order<\/p><p>Professional Discount<\/p>"
             }
           }
         },
         "block_order": [
           "30f0b6de-5b18-4c54-8fec-9b7b8a1c209b",
-          "footer-0",
-          "footer-1"
+          "footer-1",
+          "1e3d15f7-3d82-463a-a671-e52ca08da1c6",
+          "e31ee8a4-f498-4089-96a6-f337e98e8495"
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "newsletter_enable": true,
+          "newsletter_heading": "LET'S STAY CONNECTED",
+          "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true
+          "payment_enable": false
         }
       }
     },
