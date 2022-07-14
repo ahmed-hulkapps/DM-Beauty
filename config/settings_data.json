@@ -13,7 +13,7 @@
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/MyLogo.png",
           "logo_width": 100,
-          "logo_position": "top-center",
+          "logo_position": "middle-left",
           "menu": "my-navigation",
           "show_line_separator": true,
           "enable_sticky_header": true
@@ -24,6 +24,7 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
@@ -42,12 +43,12 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "accent-1",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       }
