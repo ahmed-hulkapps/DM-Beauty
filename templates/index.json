@@ -114,6 +114,57 @@
         "swipe_on_mobile": false
       }
     },
+    "1657812819316fe551": {
+      "type": "image-with-text",
+      "blocks": {
+        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6": {
+          "type": "caption",
+          "settings": {
+            "caption": "A CROWD FAVORITE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "16578128196ac0a7e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dewy Cheek & Lip Palette",
+            "heading_size": "h1"
+          }
+        },
+        "16578128196ac0a7e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A skin loving, ultra-luxe cheek and lip cream palette filled with 4 multi-use shades ideal for all skin tones. Available in Dew It Flirty & Dew It Undercover.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16578128196ac0a7e4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6",
+        "16578128196ac0a7e4-0",
+        "16578128196ac0a7e4-1",
+        "16578128196ac0a7e4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/QQutdE9Q_1_2x_f13c8f17-44d5-42ee-8d7c-aa2464b11f60.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center"
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -178,66 +229,15 @@
         "description": "",
         "full_width": false
       }
-    },
-    "1657812819316fe551": {
-      "type": "image-with-text",
-      "blocks": {
-        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6": {
-          "type": "caption",
-          "settings": {
-            "caption": "A CROWD FAVORITE",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "16578128196ac0a7e4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dewy Cheek & Lip Palette",
-            "heading_size": "h1"
-          }
-        },
-        "16578128196ac0a7e4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A skin loving, ultra-luxe cheek and lip cream palette filled with 4 multi-use shades ideal for all skin tones. Available in Dew It Flirty & Dew It Undercover.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16578128196ac0a7e4-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6",
-        "16578128196ac0a7e4-0",
-        "16578128196ac0a7e4-1",
-        "16578128196ac0a7e4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/QQutdE9Q_1_2x_f13c8f17-44d5-42ee-8d7c-aa2464b11f60.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center"
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "1657811978e5b20596",
+    "1657812819316fe551",
     "featured_products",
     "collage",
-    "video",
-    "1657812819316fe551"
+    "video"
   ]
 }
