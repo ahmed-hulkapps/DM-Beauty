@@ -3,12 +3,12 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/working-at-night.jpg",
+        "image": "shopify:\/\/shop_images\/DM_Beauty_-_home_page_-_Banner_Section-xd.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
