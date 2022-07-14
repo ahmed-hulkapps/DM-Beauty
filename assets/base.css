@@ -2353,9 +2353,5 @@ details-disclosure > details {
   }
 }
 
-.list-menu--inline {
-  display: flex !important;
-  justify-content: space-between !important;
-  
-}
+
 
