@@ -2216,6 +2216,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
+    flex: 2;
   }
 }
 .header__menu {
@@ -2350,5 +2351,11 @@ details-disclosure > details {
   .icon-close-small path {
     stroke: CanvasText;
   }
+}
+
+.list-menu--inline {
+  display: flex !important;
+  justify-content: space-between !important;
+  
 }
 
