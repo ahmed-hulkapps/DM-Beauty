@@ -349,7 +349,7 @@
     {%- endif -%}
 
     {%- if section.settings.menu != blank -%}
-      <nav class="header__inline-menu">
+      <nav class="header__inline-menu mt-5">
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
             <li>
@@ -412,7 +412,9 @@
                 <use href="#icon-close">
               </svg>
             </span>
+                  
           </summary>
+                  
           <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
             <div class="modal-overlay"></div>
             <div class="search-modal__content" tabindex="-1">
@@ -448,7 +450,6 @@
                       </svg>
                     </button>
                   </div>
-
                   {%- if settings.predictive_search_enabled -%}
                     <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
                       <div class="predictive-search__loading-state">
@@ -457,7 +458,6 @@
                         </svg>
                       </div>
                     </div>
-
                     <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
                   {%- endif -%}
                 </form>
@@ -473,8 +473,9 @@
           </div>
         </details>
       </details-modal>
-
+   
       {%- if shop.customer_accounts_enabled -%}
+        
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
           <span class="visually-hidden">
