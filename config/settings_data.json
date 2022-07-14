@@ -31,7 +31,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/minimal-logo-white_2x_d6043b93-2209-47ad-a6fa-d83fd22a5b68.png",
-              "image_width": 85,
+              "image_width": 200,
               "alignment": "center"
             }
           },
