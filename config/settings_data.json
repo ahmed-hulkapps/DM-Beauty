@@ -84,6 +84,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "6356562593472692345": {
+        "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/app-embed\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }

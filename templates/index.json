@@ -167,6 +167,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "collection": "all",
@@ -181,53 +182,20 @@
         "show_rating": true
       }
     },
-    "collage": {
-      "type": "collage",
+    "1657873629f35dfd6b": {
+      "type": "apps",
       "blocks": {
-        "video": {
-          "type": "video",
+        "5c8faf89-333a-4ac9-858e-d3d0358ac385": {
+          "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/contact-us-form\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
+        "5c8faf89-333a-4ac9-858e-d3d0358ac385"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "include_margins": true
       }
     }
   },
@@ -237,7 +205,6 @@
     "1657811978e5b20596",
     "1657812819316fe551",
     "featured_products",
-    "collage",
-    "video"
+    "1657873629f35dfd6b"
   ]
 }
