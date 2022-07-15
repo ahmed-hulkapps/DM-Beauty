@@ -181,22 +181,6 @@
         "show_vendor": false,
         "show_rating": true
       }
-    },
-    "1657873629f35dfd6b": {
-      "type": "apps",
-      "blocks": {
-        "5c8faf89-333a-4ac9-858e-d3d0358ac385": {
-          "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/contact-us-form\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "5c8faf89-333a-4ac9-858e-d3d0358ac385"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -204,7 +188,6 @@
     "rich_text",
     "1657811978e5b20596",
     "1657812819316fe551",
-    "featured_products",
-    "1657873629f35dfd6b"
+    "featured_products"
   ]
 }
