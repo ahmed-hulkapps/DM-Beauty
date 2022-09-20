@@ -125,12 +125,55 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left"
       }
+    },
+    "1663680978b7f88f22": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663680978e5a64576-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eine Zukunft ohne Allergie für die ganze Familie!",
+            "heading_size": "h2"
+          }
+        },
+        "1663680978e5a64576-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wenn du vermutest, dass entweder du selbst oder dein Kind an einer Allergie leiden, ist es wichtig dieser Vermutung auf den Grund zu gehen.<\/strong><\/p><p>Allergiesymptome können das täglichen Leben sehr einschränken. Bleibt eine Allergie unbehandelt, besteht die Gefahr, dass sie sich ausweitet und ein Asthma entsteht. <br\/><br\/>Ein Leben mit Allergien musst du nicht einfach akzeptieren. Es gibt verschiedene Behandlungsmöglichkeiten, die deine Allergie lindern und kontrollieren. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663680978e5a64576-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr zur Allergie-Behandlung",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663680978e5a64576-0",
+        "1663680978e5a64576-1",
+        "1663680978e5a64576-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/allergie-behandlung_283711406_jenkoataman_jpg.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "featured_products",
-    "166368093751837969"
+    "166368093751837969",
+    "1663680978b7f88f22"
   ]
 }
