@@ -2024,6 +2024,11 @@ input[type="checkbox"] {
   width: 2rem;
   fill: none;
   vertical-align: middle;
+  background-color: #357081;
+  border-radius: 50%;
+  border: 1px solid #357081;
+  padding: 10px;
+
 }
 
 .header__icon,
