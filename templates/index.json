@@ -67,96 +67,6 @@
         "full_width": true
       }
     },
-    "1657811978e5b20596": {
-      "type": "multicolumn",
-      "blocks": {
-        "165781197742b388ea-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_436.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165781197742b388ea-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AdobeStock_251061394_Preview.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "165781197742b388ea-0",
-        "165781197742b388ea-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1657812819316fe551": {
-      "type": "image-with-text",
-      "blocks": {
-        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6": {
-          "type": "caption",
-          "settings": {
-            "caption": "A CROWD FAVORITE",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "16578128196ac0a7e4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dewy Cheek & Lip Palette",
-            "heading_size": "h1"
-          }
-        },
-        "16578128196ac0a7e4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A skin loving, ultra-luxe cheek and lip cream palette filled with 4 multi-use shades ideal for all skin tones. Available in Dew It Flirty & Dew It Undercover.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16578128196ac0a7e4-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "41daaf3d-ab2d-456d-98d3-3101e34dcdc6",
-        "16578128196ac0a7e4-0",
-        "16578128196ac0a7e4-1",
-        "16578128196ac0a7e4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/QQutdE9Q_1_2x_f13c8f17-44d5-42ee-8d7c-aa2464b11f60.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "center"
-      }
-    },
     "featured_products": {
       "type": "featured-collection",
       "disabled": true,
@@ -173,13 +83,54 @@
         "show_vendor": false,
         "show_rating": true
       }
+    },
+    "166368093751837969": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663680937b614005c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "#BeatYourAllergy - Wege aus der Allergie",
+            "heading_size": "h2"
+          }
+        },
+        "1663680937b614005c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit deiner Allergie bist du nicht allein! Mehr als 30 Millionen Menschen in Deutschland sind an einer Allergie erkrankt. Viele leiden im Stillen, verharmlosen ihre Beschwerden oder wissen gar nicht, dass sie an einer Allergie leiden. Das möchten wir ändern!<\/p><p>In unseren Patienten-Stories erzählen Menschen mit Allergien ihre persönliche Erfolgsgeschichte. Sie teilen mit uns, wie sehr die Allergie ihr Leben bestimmt hat, was sie bewegt hat, endlich selbst die Kontrolle zu übernehmen und welchen positiven Effekt eine Hyposensibilisierung (auch spezifische Immuntherapie, Allergie-Immuntherapie oder Allergie-Impfung genannt) auf ihre Lebensqualität hat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663680937b614005c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Kampagne #BeatYourAllergy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663680937b614005c-0",
+        "1663680937b614005c-1",
+        "1663680937b614005c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pag020_teaserbild_1920x1350_kompr_jpg.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "1657811978e5b20596",
-    "1657812819316fe551",
-    "featured_products"
+    "featured_products",
+    "166368093751837969"
   ]
 }
