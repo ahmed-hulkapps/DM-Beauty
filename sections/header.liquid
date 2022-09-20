@@ -83,10 +83,7 @@
   <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
-      <div class="container">
-        <div class= "frame">
-          <div class="header_frame">
-                <details id="Details-menu-drawer-container" class="menu-drawer-container">
+        <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
               {% render 'icon-hamburger' %}
@@ -251,9 +248,6 @@
             </div>
           </div>
         </details>
-          </div>
-        </div>
-      </div>
       </header-drawer>
     {%- endif -%}
 
