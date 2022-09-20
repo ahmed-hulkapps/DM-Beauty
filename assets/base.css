@@ -2359,3 +2359,12 @@ details-disclosure > details {
   display: flex !important;
   justify-content: space-between !important;
 }
+
+.header__menu-item{
+  display: block;
+    padding: .6em 1.2em .5em;
+    border-radius: 200px;
+    background-color: rgba(64,92,131,0);
+    transition: background-color .25s ease-in-out,color .25s ease-in-out;
+}
+    
