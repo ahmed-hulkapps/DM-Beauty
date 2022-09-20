@@ -10,17 +10,10 @@
             "heading_size": "medium"
           }
         },
-        "94f3b03a-4f45-4c37-9527-e72d1ee34b63": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "text_style": "body"
-          }
-        },
         "64dd12a0-3ca9-469a-abea-803dc2118e0f": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
+            "button_label_1": "Allergie-Selbsttest",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -31,7 +24,6 @@
       },
       "block_order": [
         "4dac2024-d6aa-4cb9-b9cd-4505275edfa9",
-        "94f3b03a-4f45-4c37-9527-e72d1ee34b63",
         "64dd12a0-3ca9-469a-abea-803dc2118e0f"
       ],
       "settings": {
