@@ -2243,13 +2243,13 @@ details[open] > .header__icon--menu .icon-hamburger {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
-.header__active-menu-item {
+/*.header__active-menu-item {
   display: block;
     padding: .6em 1.2em .5em;
     border-radius: 200px;
     background-color: rgba(64,92,131,0);
     transition: background-color .25s ease-in-out,color .25s ease-in-out;
-}
+}*/
 .header__active-menu-item {
     transition: text-decoration-thickness var(--duration-short) ease;
     color: rgb(var(--color-foreground));
