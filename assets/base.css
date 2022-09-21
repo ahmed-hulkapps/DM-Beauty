@@ -1274,6 +1274,7 @@ deferred-media {
   cursor: not-allowed;
   border-radius: 5px;
   font-weight: bold;
+  border-radius: 200px;
 }
 
 .button--full-width {
