@@ -2234,7 +2234,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: white;
 }
 
 .header__menu-item span {
