@@ -2240,6 +2240,8 @@ details[open] > .header__icon--menu .icon-hamburger {
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
+  padding: 0.6em 1.2em 0.5em;
+    border-radius: 200px;
 }
 
 .header__menu-item:hover span {
