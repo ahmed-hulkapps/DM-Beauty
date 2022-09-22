@@ -1,6 +1,9 @@
 {
   "current": {
     "colors_accent_2": "#eee3e0",
+    "type_header_font": "cabin_n4",
+    "heading_scale": 100,
+    "type_body_font": "cabin_n4",
     "social_twitter_link": "",
     "social_facebook_link": "1",
     "social_pinterest_link": "3",
@@ -16,12 +19,12 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/Image_22_2x_38382ebe-25f3-4a7f-a12a-ba17c4a56934.png",
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/allergiecheck-logo_3.png",
           "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "my-navigation",
-          "show_line_separator": true,
+          "show_line_separator": false,
           "enable_sticky_header": true
         }
       },
@@ -82,6 +85,12 @@
       "1744347199190486471": {
         "type": "shopify:\/\/apps\/advanced-wishlist\/blocks\/app\/330d9272-08ea-4193-b3e0-475a69fa65fa",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "6356562593472692345": {
+        "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/app-embed\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
+        "disabled": false,
         "settings": {
         }
       }

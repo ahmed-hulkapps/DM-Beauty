@@ -1278,6 +1278,7 @@ deferred-media {
   cursor: not-allowed;
   border-radius: 5px;
   font-weight: bold;
+  border-radius: 200px;
 }
 
 .button--full-width {
@@ -2032,6 +2033,8 @@ input[type="checkbox"] {
   width: 2rem;
   fill: none;
   vertical-align: middle;
+  background-color: #357081;
+  border-radius: 50%;
 }
 
 .header__icon,
@@ -2195,6 +2198,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   transform: translateY(0);
   animation: animateMenuOpen var(--duration-default) ease;
   z-index: 1;
+  width: 180%;
 }
 
 /* Header menu */
@@ -2237,31 +2241,39 @@ details[open] > .header__icon--menu .icon-hamburger {
   padding: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  letter-spacing: 0.3px;
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: white;
 }
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
+  padding: 0.6em 1.2em 0.5em;
+    border-radius: 200px;
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  background-color: #357081;
 }
-
+/*.header__active-menu-item {
+  display: block;
+    padding: .6em 1.2em .5em;
+    border-radius: 200px;
+    background-color: rgba(64,92,131,0);
+    transition: background-color .25s ease-in-out,color .25s ease-in-out;
+}*/
 .header__active-menu-item {
-  transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-}
-
-.header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.2rem;
-}
+    transition: text-decoration-thickness var(--duration-short) ease;
+    color: rgb(var(--color-foreground));
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+  
+  .header__menu-item:hover .header__active-menu-item {
+    text-decoration-thickness: 0.2rem;
+  }
 
 .header__submenu {
   transition: opacity var(--duration-default) ease,
@@ -2269,7 +2281,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__submenu.list-menu {
-  padding: 2rem 0;
+  
 }
 
 .header__submenu .header__submenu {
@@ -2283,7 +2295,8 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__submenu .header__menu-item {
-  padding: 0.95rem 3.5rem 0.95rem 2rem;
+  padding: 1.4em;
+  color: white;
 }
 
 .header__submenu .header__submenu .header__menu-item {
@@ -2368,6 +2381,12 @@ details-disclosure > details {
   justify-content: space-between !important;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0e540701608fe73381a3cfaa74767eec138572e3
+=======
+
+
+    
+>>>>>>> 3e1eb33d9d85076f23969ccdfab71e2708f9188b
