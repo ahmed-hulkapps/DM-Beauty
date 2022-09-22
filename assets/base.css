@@ -1883,19 +1883,12 @@ input[type="checkbox"] {
 }
 
 .header {
-<<<<<<< HEAD
-  /*   display: grid;
-=======
-/*   display: grid;
->>>>>>> 0e540701608fe73381a3cfaa74767eec138572e3
+  display: grid;
   grid-template-areas: 'left-icon heading icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   padding-top: 1rem;
-  padding-bottom: 1rem; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-bottom: 1rem; 
 }
 
 @media screen and (min-width: 990px) {
